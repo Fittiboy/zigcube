@@ -49,7 +49,7 @@ pub fn main() !void {
                 gl.rlRotatef(x_rot, 1, 0, 0);
                 rl.drawCubeWiresV(position, size, if (dark_mode) rl.Color.lime else rl.Color.black);
             }
-            if (show_grid) rl.DrawGrid(12, 0.75);
+            if (show_grid) rl.drawGrid(12, 0.75);
         }
     }
 }
